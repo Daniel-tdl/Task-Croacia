@@ -1,0 +1,16 @@
+unit uClientFactory;
+
+interface
+uses
+  uTypePersonInterface;
+
+type
+  TClientFactory = class(TInterfacedObject,ITypePerson)
+    procedure Save(obj:TObject);
+    procedure Delete(obj:TObject);
+    procedure Update(obj:TObject);
+  end;
+
+implementation
+
+end.

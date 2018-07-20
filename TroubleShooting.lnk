@@ -1,0 +1,6 @@
+[Dados]
+UserName=TaskPerson
+PassWord=1234
+DriverName=MSSQL
+DataBase=tempdb
+HostName=JUNIOR\SQLEXPRESS
